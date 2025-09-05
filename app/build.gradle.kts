@@ -44,9 +44,11 @@ dependencies {
     implementation(libs.androidx.appcompat.v161)
     implementation(libs.material.v1100)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.activity)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit.v115)
     androidTestImplementation(libs.androidx.espresso.core.v351)
     implementation(libs.androidx.room.ktx)
     annotationProcessor(libs.androidx.room.compiler)
+    implementation("com.airbnb.android:lottie:6.3.0")
 }

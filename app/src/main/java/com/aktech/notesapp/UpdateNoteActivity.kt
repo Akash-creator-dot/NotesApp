@@ -1,4 +1,4 @@
-package com.practice.notesapp
+package com.aktech.notesapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
