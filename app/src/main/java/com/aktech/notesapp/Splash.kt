@@ -21,6 +21,7 @@ class Splash : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        lottieAnimationView=findViewById(R.id.lottieview)
         lottieAnimationView.setAnimation(R.raw.notepad)
         lottieAnimationView.playAnimation()
         lottieAnimationView.loop(true)
