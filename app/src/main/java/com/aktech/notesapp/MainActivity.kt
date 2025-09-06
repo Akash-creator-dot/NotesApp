@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.aktech.notesapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-
+// init()
     private lateinit var binding: ActivityMainBinding
     private lateinit var db: NotesDatabaseHelper
     private lateinit var notesAdapter: NotesAdapter
